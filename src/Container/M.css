@@ -1,0 +1,254 @@
+body {
+
+
+    margin: 0px;
+}
+
+.sl1 {
+
+    color: rgb(11, 248, 43);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+
+    margin-bottom: 10%;
+    list-style: none;
+}
+
+.sl2,
+.sl3,
+.sl4,
+.sl5,
+.sl6,
+.sl7 {
+    list-style: none;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.help {}
+
+.sea1 {
+    width: 50%;
+}
+
+.seabar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.not {
+    display: flex;
+}
+
+.not:hover {
+    cursor: pointer;
+}
+
+a span {
+    color: #4c1319;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.mainc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainbox {}
+
+.licon {
+    display: flex;
+}
+
+.lg {
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    row-gap: 6%;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+
+
+a:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+
+#menubtn {
+    padding: 10px;
+    background-color: #0B63F8;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+.tab,
+.tab2 {
+    height: 770px;
+}
+
+.sidebox {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mbox {
+    position: relative;
+    left: 25%;
+}
+
+.locki {
+    display: none;
+}
+
+.brand-name {
+    display: flex;
+
+}
+
+@media (max-width:576px) {
+
+
+    .sidebox {
+
+        width: 75px;
+    }
+
+    .brand-name {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+
+
+        color: #013CC6;
+        font-family: Poppins;
+    }
+
+
+}
+
+@media (min-width:576px) {
+
+
+    .sidebox {
+
+        width: 250px;
+    }
+
+    .brand-name {
+        font-weight: bold;
+        font-size: 25px;
+
+        color: #013CC6;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 1070px) {
+
+    .sidebox {
+        position: fixed;
+        width: min-content;
+        top: 0%;
+
+    }
+}
+
+/* Default styles for .list1 a */
+.list1 a {
+    /* Youdisr default styles here */
+    display: block;
+}
+
+/* Media query for screens with a maximum width of 1070px */
+@media (max-width: 1070px) {
+    .list1 a {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebox {
+        position: fixed;
+        width: min-content;
+        top: 0%;
+        overflow-y: auto;
+        max-height: 100vh;
+    }
+
+    .sidebox::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .sidebox::-webkit-scrollbar-thumb {
+        background-color: grey;
+        border-radius: 5px;
+    }
+
+    .sidebox {
+        scrollbar-width: thin;
+        scrollbar-color: #0B63F8 transparent;
+    }
+}
+
+@media (max-width:700px) {
+
+    .mbox {
+
+        position: relative;
+        left: 29%;
+
+    }
+
+    .sidebox {
+left: 0%;
+    }
+
+}
+.mainc{
+
+}
+.mbox{
+    padding-right:6% ;
+    padding-left: 2%;
+}
+.tab{
+
+}

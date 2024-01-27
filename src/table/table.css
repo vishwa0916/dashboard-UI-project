@@ -1,0 +1,19 @@
+table {
+
+    border-spacing: 1   ;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+input[type='checkbox'] {
+display: flex;
+    margin:     10px 0px 20px 20px;
+}
